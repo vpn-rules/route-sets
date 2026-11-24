@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "name": "Музыка, видео, ИИ и приложения · 13 сервисов",
+  "direction": "vpn",
+  "services": [
+    "Spotify",
+    "Strava",
+    "Netflix",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Microsoft Copilot",
+    "Grok",
+    "Miro",
+    "Canva",
+    "Tidal",
+    "Disney+",
+    "HBO Max"
+  ],
+  "sets": [
+    {
+      "file": "global-services.srs",
+      "kind": "domain",
+      "sha256": "770fb82ab16d620a53ab2b33f14146228478f0cc163cdabb313fb03af580386d"
+    }
+  ],
+  "sources": [
+    "https://github.com/v2fly/domain-list-community/tree/master/data",
+    "https://www.strava.com/",
+    "https://help.miro.com/hc/en-us/articles/20857452690706-Miro-domains-reference",
+    "https://www.canva.com/help/allow-canva-through-firewall/"
+  ]
+}
