@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "name": "Telegram, YouTube, WhatsApp и Discord",
+  "direction": "vpn",
+  "sets": [
+    {
+      "file": "geoip-telegram.srs",
+      "kind": "ip",
+      "sha256": "c5ae208004b0752baee307348ef820b9fe9e8aa3a14556f54af68791b6d4030b",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs"
+    },
+    {
+      "file": "geosite-discord.srs",
+      "kind": "domain",
+      "sha256": "289c98b6887f4de780670618deed0613c2cd489818b2c8abd1ee9d12bb972734",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/discord.srs"
+    },
+    {
+      "file": "geosite-telegram.srs",
+      "kind": "domain",
+      "sha256": "30cd392b1d79b0569af077874b36c6892bf13a94dce0d8e4410c3b1976d62ea2",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs"
+    },
+    {
+      "file": "geosite-whatsapp.srs",
+      "kind": "domain",
+      "sha256": "69c3a413c97070f9db7ea836c48998217e2fbfb2535b887e312424da843554a3",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/whatsapp.srs"
+    },
+    {
+      "file": "geosite-youtube.srs",
+      "kind": "domain",
+      "sha256": "ae9a576c046627c01bc1488f526775dfe919f1152c3ce6f75b678fce92498b3f",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs"
+    }
+  ]
+}

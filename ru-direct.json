@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "name": "Российские домены и IP-сети",
+  "direction": "direct",
+  "sets": [
+    {
+      "file": "geoip-ru.srs",
+      "kind": "ip",
+      "sha256": "e24dc7cc17aee4d935a2c9636bdc039845cbfc5d90022e6d51345dc81dcb8697",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/ru.srs"
+    },
+    {
+      "file": "geosite-category-ru.srs",
+      "kind": "domain",
+      "sha256": "1e8a975a299059cbb79d0dd61af60b6e2fd5ff59223457a6b66797adcf49da3e",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ru.srs"
+    },
+    {
+      "file": "geosite-ru.srs",
+      "kind": "domain",
+      "sha256": "9ca9071fd008945583eb55ac207d2e95eab7ede2795a2437525d1bd859d4f32a",
+      "source": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ru.srs"
+    },
+    {
+      "file": "geosite-ru-available-only-inside.srs",
+      "kind": "domain",
+      "sha256": "ae0e83d563ad397180d50ff8759b98f6d0629cf2d5097d72a055640ed7337641",
+      "source": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-geosite/geosite-ru-available-only-inside.srs"
+    }
+  ]
+}
